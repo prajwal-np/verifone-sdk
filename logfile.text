@@ -1,0 +1,133 @@
+11-29 00:22:43.951 17153 17154 I PSDK VFITS Logging to file logfile.text
+11-29 00:22:43.956 17153 17218 D PSDK Consumer::MainLoop thread ID 140446448867072
+11-29 00:22:57.656 17153 17222 D PSDK [psdk_id=0] GenerateSessionId
+11-29 00:22:57.656 17153 17222 I PSDK VFITS [psdk_id=0] startSession sesamz for session 3a2e47110114d23-4b320f31-41b0-a917-62fff3db4802b55e4cd62828
+11-29 00:22:57.656 17153 17222 D PSDK [psdk_id=0] HandleEvent with status:-21 of the type:SESSION_STARTED has sessionId:3a2e47110114d23-4b320f31-41b0-a917-62fff3db4802b55e4cd62828
+11-29 00:22:57.656 17153 17218 I PSDK VFITS [psdk_id=0] sendMessageToListener SESSION_STARTED for session 3a2e47110114d23-4b320f31-41b0-a917-62fff3db4802b55e4cd62828
+11-29 00:22:57.656 17153 17218 D PSDK [psdk_id=0] Has active session with 0 listener(s).
+11-29 00:22:57.656 17153 17218 D PSDK [psdk_id=0] sendMessageToListener SESSION_STARTED 3a2e47110114d23-4b320f31-41b0-a917-62fff3db4802b55e4cd62828 Could not find a listener of the legacy type
+11-29 00:22:57.656 17153 17218 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for SESSION_STARTED
+11-29 00:23:06.405 17153 17222 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:23:06.438 17153 17222 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:23:06.438 17153 17218 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:23:06.438 17153 17218 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:23:06.438 17153 17218 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:23:39.867 17268 17269 I PSDK VFITS Logging to file logfile.text
+11-29 00:23:39.867 17268 17329 D PSDK Consumer::MainLoop thread ID 140017319130880
+11-29 00:23:41.646 17268 17333 D PSDK [psdk_id=0] GenerateSessionId
+11-29 00:23:41.646 17268 17333 I PSDK VFITS [psdk_id=0] startSession gukawq for session 416a499e19cd966-26ed6aed-4785-b4ee-b8eff931e915dab2f7064d1
+11-29 00:23:41.646 17268 17333 D PSDK [psdk_id=0] HandleEvent with status:-21 of the type:SESSION_STARTED has sessionId:416a499e19cd966-26ed6aed-4785-b4ee-b8eff931e915dab2f7064d1
+11-29 00:23:41.646 17268 17329 I PSDK VFITS [psdk_id=0] sendMessageToListener SESSION_STARTED for session 416a499e19cd966-26ed6aed-4785-b4ee-b8eff931e915dab2f7064d1
+11-29 00:23:41.646 17268 17329 D PSDK [psdk_id=0] Has active session with 0 listener(s).
+11-29 00:23:41.646 17268 17329 D PSDK [psdk_id=0] sendMessageToListener SESSION_STARTED 416a499e19cd966-26ed6aed-4785-b4ee-b8eff931e915dab2f7064d1 Could not find a listener of the legacy type
+11-29 00:23:41.646 17268 17329 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for SESSION_STARTED
+11-29 00:23:41.647 17268 17333 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:23:41.649 17268 17333 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:23:41.649 17268 17329 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:23:41.649 17268 17329 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:23:41.649 17268 17329 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:24:37.775 17379 17380 I PSDK VFITS Logging to file logfile.text
+11-29 00:24:37.775 17379 17440 D PSDK Consumer::MainLoop thread ID 140278981887744
+11-29 00:24:41.629 17379 17444 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:24:41.631 17379 17444 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:24:41.631 17379 17440 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:24:41.631 17379 17440 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:24:41.631 17379 17440 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:25:11.768 17485 17486 I PSDK VFITS Logging to file logfile.text
+11-29 00:25:38.317 17485 17550 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:25:38.319 17485 17550 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:25:38.319 17485 17546 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:25:38.319 17485 17546 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:25:38.319 17485 17546 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:26:26.397 17595 17596 I PSDK VFITS Logging to file logfile.text
+11-29 00:26:34.549 17595 17664 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:26:34.552 17595 17664 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:26:34.552 17595 17660 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:26:34.552 17595 17660 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:26:34.552 17595 17660 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:32:08.616 17716 17720 I PSDK VFITS Logging to file logfile.text
+11-29 00:32:28.874 17883 17886 I PSDK VFITS Logging to file logfile.text
+11-29 00:32:28.879 17883 17940 D PSDK Consumer::MainLoop thread ID 140445776721664
+11-29 00:32:28.879 17883 17940 I PSDK VFITS [psdk_id=0] sendMessageToListener SESSION_STARTED for session 7fe510212407bc99-1858466e-4b35-99f1-c38140877f1b56b5f3e45e0
+11-29 00:32:28.879 17883 17940 D PSDK [psdk_id=0] Has active session with 0 listener(s).
+11-29 00:32:28.879 17883 17940 D PSDK [psdk_id=0] sendMessageToListener SESSION_STARTED 7fe510212407bc99-1858466e-4b35-99f1-c38140877f1b56b5f3e45e0 Could not find a listener of the legacy type
+11-29 00:32:28.879 17883 17940 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for SESSION_STARTED
+11-29 00:32:39.808 17883 17944 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:32:39.810 17883 17944 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:32:39.810 17883 17940 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:32:39.810 17883 17940 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:32:39.810 17883 17940 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:33:06.895 17995 17996 I PSDK VFITS Logging to file logfile.text
+11-29 00:33:09.999 17995 18058 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:33:10.001 17995 18058 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:33:10.001 17995 18056 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:33:10.001 17995 18056 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:33:10.001 17995 18056 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:35:27.915 18091 18097 I PSDK VFITS Logging to file logfile.text
+11-29 00:35:31.047 18206 18207 I PSDK VFITS Logging to file logfile.text
+11-29 00:35:31.053 18206 18269 D PSDK Consumer::MainLoop thread ID 139773288253184
+11-29 00:35:31.053 18206 18269 I PSDK VFITS [psdk_id=0] sendMessageToListener SESSION_STARTED for session 7e244cee6c1c4b2b-4cd61922-48ce-9861-3d597e8e396dd6d69911f0f
+11-29 00:35:31.053 18206 18269 D PSDK [psdk_id=0] Has active session with 0 listener(s).
+11-29 00:35:31.053 18206 18269 D PSDK [psdk_id=0] sendMessageToListener SESSION_STARTED 7e244cee6c1c4b2b-4cd61922-48ce-9861-3d597e8e396dd6d69911f0f Could not find a listener of the legacy type
+11-29 00:35:31.054 18206 18269 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for SESSION_STARTED
+11-29 00:35:37.169 18206 18271 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:35:37.171 18206 18271 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:35:37.171 18206 18269 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:35:37.171 18206 18269 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:35:37.171 18206 18269 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:36:44.419 18325 18329 I PSDK VFITS Logging to file logfile.text
+11-29 00:36:47.574 18325 18391 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:36:47.576 18325 18391 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:36:47.576 18325 18386 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:36:47.576 18325 18386 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:36:47.576 18325 18386 W PSDK VFITS [psdk_id=0] Could not find a CommerceListener2 for TRANSACTION_PAYMENT_COMPLETED
+11-29 00:37:19.814 18434 18435 I PSDK VFITS Logging to file logfile.text
+11-29 00:42:58.464 18558 18562 I PSDK VFITS Logging to file logfile.text
+11-29 00:42:58.471 18558 18624 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+11-29 00:42:58.471 18558 18623 E PSDK [psdk_id=0] Received an empty event.
+11-29 00:42:58.471 18558 18623 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:42:58.471 18558 18623 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+11-29 00:44:24.605 18700 18703 I PSDK VFITS Logging to file logfile.text
+11-29 00:44:24.607 18700 18758 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+11-29 00:44:24.607 18700 18757 E PSDK [psdk_id=0] Received an empty event.
+11-29 00:44:24.607 18700 18757 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:44:24.607 18700 18757 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+11-29 00:44:45.259 18700 18775 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:44:45.259 18700 18775 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:44:45.259 18700 18757 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:44:45.259 18700 18757 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:44:45.259 18700 18757 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:44:45.259 18700 18757 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20
+11-29 00:45:30.189 18817 18818 I PSDK VFITS Logging to file logfile.text
+11-29 00:45:30.191 18817 18883 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+11-29 00:45:30.192 18817 18882 E PSDK [psdk_id=0] Received an empty event.
+11-29 00:45:30.192 18817 18882 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:45:30.192 18817 18882 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+11-29 00:46:59.399 18817 18889 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 00:46:59.399 18817 18889 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 00:46:59.399 18817 18882 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 00:46:59.399 18817 18882 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 00:46:59.399 18817 18882 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:46:59.399 18817 18882 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20
+11-29 00:56:55.368 19070 19071 I PSDK VFITS Logging to file logfile.text
+11-29 00:56:55.369 19070 19132 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+11-29 00:56:55.370 19070 19131 D PSDK Consumer::MainLoop thread ID 140185086072576
+11-29 00:56:55.370 19070 19131 I PSDK VFITS [psdk_id=0] sendMessageToListener SESSION_STARTED for session 259dda1072402b21-512f5011-4940-a763-499da39b751c5d277dc4214c
+11-29 00:56:55.370 19070 19131 D PSDK [psdk_id=0] Has active session with 0 listener(s).
+11-29 00:56:55.370 19070 19131 D PSDK [psdk_id=0] sendMessageToListener SESSION_STARTED 259dda1072402b21-512f5011-4940-a763-499da39b751c5d277dc4214c Could not find a listener of the legacy type
+11-29 00:56:55.370 19070 19131 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:56:55.370 19070 19131 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type SESSION_STARTED with status -21
+11-29 00:56:55.370 19070 19131 E PSDK [psdk_id=0] Received an empty event.
+11-29 00:56:55.370 19070 19131 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 00:56:55.370 19070 19131 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+11-29 01:00:28.682 19200 19201 I PSDK VFITS Logging to file logfile.text
+11-29 01:00:28.685 19200 19266 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+11-29 01:00:28.685 19200 19265 E PSDK [psdk_id=0] Received an empty event.
+11-29 01:00:28.685 19200 19265 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 01:00:28.686 19200 19265 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+11-29 01:00:43.480 19200 19271 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+11-29 01:00:43.480 19200 19271 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+11-29 01:00:43.480 19200 19265 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+11-29 01:00:43.480 19200 19265 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+11-29 01:00:43.480 19200 19265 D PSDK [psdk_id=0] We have 1 listener(s)
+11-29 01:00:43.480 19200 19265 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20
