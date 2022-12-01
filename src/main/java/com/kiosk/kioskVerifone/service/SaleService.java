@@ -5,6 +5,7 @@ import com.verifone.payment_sdk.AmountTotals;
 import com.verifone.payment_sdk.Payment;
 import com.verifone.payment_sdk.TransactionManager;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.HashMap;
 import java.util.logging.Logger;
@@ -20,9 +21,9 @@ public class SaleService extends CommerceListener {
 
     private final static Logger LOGGER = Logger.getLogger(PaymentSdk.class.getName());
 
-    public SaleService(){
+    public SaleService(String ip){
         paymentSdk = PaymentSdk.create();
-        initSdk();
+        this.terminalAddress = ip;
         startSession();
         PaymentSdk.configureLogFile("logfile.text",1024*5);
     }

@@ -13,9 +13,9 @@ public class SaleApi {
 
    private SaleApi(){
     }
-    @GetMapping(value="init")
-    public String initiatePayment(){
-        SaleService saleService = new SaleService();
+    @GetMapping(value="init/{ip}")
+    public String initiatePayment(@PathVariable String ip){
+        SaleService saleService = new SaleService(ip);
         return saleService.initiatePayment();
     }
     @GetMapping(value="hello")
