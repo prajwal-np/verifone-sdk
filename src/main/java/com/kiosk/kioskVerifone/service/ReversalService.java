@@ -1,13 +1,12 @@
 package com.kiosk.kioskVerifone.service;
 
-import com.verifone.payment_sdk.Payment;
-import com.verifone.payment_sdk.PaymentSdk;
-import com.verifone.payment_sdk.TransactionManager;
+import com.verifone.payment_sdk.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.logging.Logger;
 
-@Service
+
 public class ReversalService {
     private static final String TAG = "PaymentSdkReversalHandler";
     private PaymentSdk paymentSdk;
@@ -17,6 +16,7 @@ public class ReversalService {
 
     private final static Logger LOGGER = Logger.getLogger(PaymentSdk.class.getName());
 
+    @Autowired
     public ReversalService() {
 //        paymentSdk = PaymentSdk.create();
 //        payment = Payment.create();

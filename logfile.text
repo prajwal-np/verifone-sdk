@@ -131,3 +131,146 @@
 11-29 01:00:43.480 19200 19265 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
 11-29 01:00:43.480 19200 19265 D PSDK [psdk_id=0] We have 1 listener(s)
 11-29 01:00:43.480 19200 19265 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20
+12-01 09:07:44.220  4629  4631 I PSDK VFITS Logging to file logfile.text
+12-01 09:07:44.223  4629  4683 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 09:07:44.224  4629  4682 E PSDK [psdk_id=0] Received an empty event.
+12-01 09:07:44.224  4629  4682 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 09:07:44.224  4629  4682 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 09:42:14.086 12909 12910 I PSDK VFITS Logging to file logfile.text
+12-01 09:42:14.089 12909 12950 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 09:42:14.089 12909 12949 E PSDK [psdk_id=0] Received an empty event.
+12-01 09:42:14.089 12909 12949 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 09:42:14.089 12909 12949 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:35:01.118 19163 19165 I PSDK VFITS Logging to file logfile.text
+12-01 10:35:01.121 19163 19203 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:35:01.121 19163 19202 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:35:01.121 19163 19202 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:35:01.121 19163 19202 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:35:10.443 19265 19267 I PSDK VFITS Logging to file logfile.text
+12-01 10:35:10.446 19265 19305 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:35:10.446 19265 19304 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:35:10.446 19265 19304 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:35:10.446 19265 19304 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:35:59.329 19381 19383 I PSDK VFITS Logging to file logfile.text
+12-01 10:35:59.333 19381 19421 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:35:59.334 19381 19420 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:35:59.334 19381 19420 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:35:59.334 19381 19420 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:39:29.719 19620 19621 I PSDK VFITS Logging to file logfile.text
+12-01 10:39:29.722 19620 19660 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:39:29.722 19620 19659 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:39:29.722 19620 19659 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:39:29.722 19620 19659 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:41:03.715 19813 19815 I PSDK VFITS Logging to file logfile.text
+12-01 10:41:03.717 19813 19853 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:41:03.718 19813 19852 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:41:03.718 19813 19852 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:41:03.718 19813 19852 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:43:38.267 20156 20158 I PSDK VFITS Logging to file logfile.text
+12-01 10:43:38.273 20156 20196 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:43:38.273 20156 20195 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:43:38.273 20156 20195 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:43:38.273 20156 20195 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:44:48.070 20287 20289 I PSDK VFITS Logging to file logfile.text
+12-01 10:44:48.076 20287 20327 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:44:48.077 20287 20326 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:44:48.077 20287 20326 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:44:48.077 20287 20326 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:47:38.622 21394 21396 I PSDK VFITS Logging to file logfile.text
+12-01 10:47:38.626 21394 21434 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:47:38.626 21394 21433 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:47:38.626 21394 21433 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:47:38.626 21394 21433 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:47:57.637 21513 21515 I PSDK VFITS Logging to file logfile.text
+12-01 10:47:57.640 21513 21557 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:47:57.640 21513 21556 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:47:57.640 21513 21556 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:47:57.640 21513 21556 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:50:57.280 21940 21941 I PSDK VFITS Logging to file logfile.text
+12-01 10:50:57.283 21940 21980 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:50:57.283 21940 21979 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:50:57.283 21940 21979 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:50:57.283 21940 21979 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:52:42.531 22234 22236 I PSDK VFITS Logging to file logfile.text
+12-01 10:52:42.533 22234 22274 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:52:42.534 22234 22273 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:52:42.534 22234 22273 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:52:42.534 22234 22273 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:55:07.215 22676 22678 I PSDK VFITS Logging to file logfile.text
+12-01 10:55:07.217 22676 22716 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:55:07.217 22676 22715 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:55:07.218 22676 22715 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:55:07.218 22676 22715 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:56:23.040 22852 22854 I PSDK VFITS Logging to file logfile.text
+12-01 10:56:23.043 22852 22892 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:56:23.044 22852 22891 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:56:23.044 22852 22891 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:56:23.044 22852 22891 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 10:58:35.542 23130 23131 I PSDK VFITS Logging to file logfile.text
+12-01 10:58:35.545 23130 23170 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 10:58:35.545 23130 23169 E PSDK [psdk_id=0] Received an empty event.
+12-01 10:58:35.545 23130 23169 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 10:58:35.545 23130 23169 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:03:25.154 23541 23543 I PSDK VFITS Logging to file logfile.text
+12-01 11:03:25.156 23541 23581 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:03:25.156 23541 23580 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:03:25.156 23541 23580 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:03:25.156 23541 23580 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:03:34.077 23645 23647 I PSDK VFITS Logging to file logfile.text
+12-01 11:03:34.080 23645 23685 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:03:34.080 23645 23684 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:03:34.080 23645 23684 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:03:34.080 23645 23684 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:06:04.683 23950 23952 I PSDK VFITS Logging to file logfile.text
+12-01 11:06:04.685 23950 23990 I PSDK [psdk_id=0] PaymentSdk initializing 3.54.0
+12-01 11:06:04.688 23950 23990 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:06:04.688 23950 23989 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:06:04.688 23950 23989 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:06:04.688 23950 23989 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:10:57.389 24290 24292 I PSDK VFITS Logging to file logfile.text
+12-01 11:10:57.391 24290 24330 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:10:57.391 24290 24329 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:10:57.391 24290 24329 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:10:57.391 24290 24329 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:11:58.200 24435 24437 I PSDK VFITS Logging to file logfile.text
+12-01 11:11:58.203 24435 24475 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:11:58.204 24435 24474 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:11:58.204 24435 24474 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:11:58.204 24435 24474 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:13:25.765 24627 24629 I PSDK VFITS Logging to file logfile.text
+12-01 11:13:25.769 24627 24667 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:13:25.769 24627 24666 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:13:25.769 24627 24666 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:13:25.769 24627 24666 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:13:57.645 24771 24773 I PSDK VFITS Logging to file logfile.text
+12-01 11:13:57.650 24771 24811 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:13:57.651 24771 24810 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:13:57.651 24771 24810 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:13:57.651 24771 24810 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 11:14:18.513 24911 24913 I PSDK VFITS Logging to file logfile.text
+12-01 11:14:18.516 24911 24951 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 11:14:18.516 24911 24950 E PSDK [psdk_id=0] Received an empty event.
+12-01 11:14:18.516 24911 24950 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 11:14:18.516 24911 24950 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 15:49:53.377 41770 41803 I PSDK VFITS Logging to file logfile.text
+12-01 15:49:53.378 41770 41803 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+12-01 15:49:53.379 41770 41880 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 15:49:53.379 41770 41879 E PSDK [psdk_id=0] Received an empty event.
+12-01 15:49:53.379 41770 41879 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 15:49:53.379 41770 41879 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 15:49:53.379 41770 41803 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+12-01 15:49:53.379 41770 41879 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+12-01 15:49:53.379 41770 41879 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+12-01 15:49:53.379 41770 41879 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 15:49:53.379 41770 41879 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20
+12-01 17:07:23.142 47187 47216 I PSDK VFITS Logging to file logfile.text
+12-01 17:07:23.142 47187 47216 I PSDK VFITS [psdk_id=0] Performing payment (nil) of type PAYMENT for session 
+12-01 17:07:23.144 47187 47238 D PSDK [psdk_id=0] HandleEvent with status:-30 of the type:STATUS_INITIALIZED has sessionId:nil
+12-01 17:07:23.144 47187 47237 E PSDK [psdk_id=0] Received an empty event.
+12-01 17:07:23.144 47187 47237 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 17:07:23.144 47187 47237 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type STATUS_INITIALIZED with status -30
+12-01 17:07:23.144 47187 47216 D PSDK [psdk_id=0] HandleEvent with status:-20 of the type:TRANSACTION_PAYMENT_COMPLETED has sessionId:
+12-01 17:07:23.144 47187 47237 I PSDK VFITS [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED for session 
+12-01 17:07:23.144 47187 47237 D PSDK [psdk_id=0] sendMessageToListener TRANSACTION_PAYMENT_COMPLETED  Could not find a listener of the legacy type
+12-01 17:07:23.144 47187 47237 D PSDK [psdk_id=0] We have 1 listener(s)
+12-01 17:07:23.144 47187 47237 I PSDK VFITS [psdk_id=0] Notifying CommerceListener2 of type TRANSACTION_PAYMENT_COMPLETED with status -20

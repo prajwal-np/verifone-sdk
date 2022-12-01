@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.kiosk</groupId>
 	<artifactId>kioskVerifone</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>kioskVerifone</name>
-	<description>kioskVerifone for verfone terminal</description>
+	<description>kioskVerifone for verifone terminal</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -21,12 +21,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+			<version>2.4.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.verifone.payment_sdk</groupId>
+			<artifactId>verifone</artifactId>
+			<version>3.54.0</version>
+		</dependency>
+		<dependency>
+			<!-- Import dependency management from Spring Boot -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-dependencies</artifactId>
+			<version>3.0.0</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -34,7 +47,60 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
+				<executions>
+					<execution>
+						<configuration>
+							<mainClass>com.kiosk.kioskVerifone.KioskVerifoneApplication</mainClass>
+						</configuration>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.kiosk.kioskVerifone.KioskVerifoneApplication</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<classifier>spring-boot</classifier>
+					<mainClass>com.kiosk.kioskVerifone.KioskVerifoneApplication</mainClass>
+				</configuration>
+				<executions>
+					<execution>
+						<id>repackage</id>
+						<phase>package</phase>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
 

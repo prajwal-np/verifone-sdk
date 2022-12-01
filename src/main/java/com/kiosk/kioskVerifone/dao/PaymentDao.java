@@ -4,7 +4,6 @@ import com.kiosk.kioskVerifone.model.PaymentModel;
 import com.verifone.payment_sdk.Decimal;
 import org.springframework.stereotype.Controller;
 
-@Controller
 public class PaymentDao {
 
     private Decimal amount;

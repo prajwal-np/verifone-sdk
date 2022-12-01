@@ -2,11 +2,12 @@ package com.kiosk.kioskVerifone.service;
 
 import com.kiosk.kioskVerifone.dao.PaymentDao;
 import com.verifone.payment_sdk.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.logging.Logger;
 
-@Service
+
 public class RefundService {
 
     private static final String TAG = "PaymentSdkRefundHandler";
@@ -14,7 +15,7 @@ public class RefundService {
     private Payment payment;
 
     private final static Logger LOGGER = Logger.getLogger(PaymentSdk.class.getName());
-
+    @Autowired
     public RefundService() {
 //        paymentSdk = PaymentSdk.create();
 //        payment = Payment.create();

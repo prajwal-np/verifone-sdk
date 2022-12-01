@@ -1,24 +1,17 @@
 package com.kiosk.kioskVerifone.service;
 
-import com.kiosk.kioskVerifone.dao.PaymentDao;
-import com.kiosk.kioskVerifone.model.PaymentModel;
 import com.verifone.payment_sdk.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.verifone.payment_sdk.AmountTotals;
 import com.verifone.payment_sdk.Payment;
 import com.verifone.payment_sdk.TransactionManager;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.logging.Logger;
 
-
-
-@Service
-public class SaleService extends CommerceListener{
+public class SaleService extends CommerceListener {
 
     private static final String TAG = "SalesSrvice";
-    final PaymentDao paymentDao;
     private PaymentSdk paymentSdk;
     private Payment payment;
 
@@ -27,9 +20,7 @@ public class SaleService extends CommerceListener{
 
     private final static Logger LOGGER = Logger.getLogger(PaymentSdk.class.getName());
 
-    @Autowired
-    public SaleService(PaymentDao paymentDao){
-        this.paymentDao = paymentDao;
+    public SaleService(){
         paymentSdk = PaymentSdk.create();
         initSdk();
         startSession();
@@ -56,14 +47,14 @@ public class SaleService extends CommerceListener{
         String s = "startSession returned" + result;
         LOGGER.info(TAG+"::"+s);
     }
-    public String initiatePayment(PaymentModel paymentList){
+    public String initiatePayment(){
        try{
-           this.paymentDao.VerifonePayment(paymentList);
+//           this.paymentDao.VerifonePayment(paymentList);
            payment = Payment.create();
 
            // set payment amount start
            AmountTotals requestedAmounts = payment.getRequestedAmounts();
-//           requestedAmounts.setTax(this.paymentDao.getTax());
+           requestedAmounts.setTax(new Decimal(2));
            requestedAmounts.setTotal(new Decimal(10));
            payment.setRequestedAmounts(requestedAmounts);
            // end
